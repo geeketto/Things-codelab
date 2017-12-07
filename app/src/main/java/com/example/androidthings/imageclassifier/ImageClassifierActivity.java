@@ -24,15 +24,18 @@ import android.os.Handler;
 import android.os.HandlerThread;
 import android.speech.tts.TextToSpeech;
 import android.speech.tts.UtteranceProgressListener;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
+import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.androidthings.imageclassifier.classifier.Classifier;
 import com.example.androidthings.imageclassifier.classifier.TensorFlowImageClassifier;
-import com.google.android.things.contrib.driver.button.Button;
 import com.google.android.things.contrib.driver.button.ButtonInputDriver;
 import com.google.android.things.pio.Gpio;
 import com.google.android.things.pio.PeripheralManagerService;
@@ -42,7 +45,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-public class ImageClassifierActivity extends Activity implements ImageReader.OnImageAvailableListener {
+public class ImageClassifierActivity extends AppCompatActivity implements ImageReader.OnImageAvailableListener {
     private static final String TAG = "ImageClassifierActivity";
 
     private ImagePreprocessor mImagePreprocessor;
@@ -60,6 +63,7 @@ public class ImageClassifierActivity extends Activity implements ImageReader.OnI
     private AtomicBoolean mReady = new AtomicBoolean(false);
     private ButtonInputDriver mButtonDriver;
     private Gpio mReadyLED;
+    private FloatingActionButton startButton;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState) {
@@ -68,10 +72,18 @@ public class ImageClassifierActivity extends Activity implements ImageReader.OnI
 
         setContentView(R.layout.activity_camera);
         mImage = (ImageView) findViewById(R.id.imageView);
+        startButton = findViewById(R.id.start_button);
         mResultViews = new TextView[3];
         mResultViews[0] = (TextView) findViewById(R.id.result1);
         mResultViews[1] = (TextView) findViewById(R.id.result2);
         mResultViews[2] = (TextView) findViewById(R.id.result3);
+
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startRecognition();
+            }
+        });
 
         init();
     }
@@ -92,7 +104,7 @@ public class ImageClassifierActivity extends Activity implements ImageReader.OnI
             mReadyLED.setDirection(Gpio.DIRECTION_OUT_INITIALLY_LOW);
             mButtonDriver = new ButtonInputDriver(
                     BoardDefaults.getGPIOForButton(),
-                    Button.LogicState.PRESSED_WHEN_LOW,
+                    com.google.android.things.contrib.driver.button.Button.LogicState.PRESSED_WHEN_LOW,
                     KeyEvent.KEYCODE_ENTER);
             mButtonDriver.register();
         } catch (IOException e) {
@@ -165,19 +177,24 @@ public class ImageClassifierActivity extends Activity implements ImageReader.OnI
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         Log.d(TAG, "Received key up: " + keyCode + ". Ready = " + mReady.get());
         if (keyCode == KeyEvent.KEYCODE_ENTER) {
-            if (mReady.get()) {
-                setReady(false);
-                mBackgroundHandler.post(mBackgroundClickHandler);
-            } else {
-                Log.i(TAG, "Sorry, processing hasn't finished. Try again in a few seconds");
-            }
+            startRecognition();
             return true;
         }
         return super.onKeyUp(keyCode, event);
     }
 
+    private void startRecognition() {
+        if (mReady.get()) {
+            setReady(false);
+            mBackgroundHandler.post(mBackgroundClickHandler);
+        } else {
+            Log.i(TAG, "Sorry, processing hasn't finished. Try again in a few seconds");
+        }
+    }
+
     private void setReady(boolean ready) {
         mReady.set(ready);
+
         if (mReadyLED != null) {
             try {
                 mReadyLED.setValue(ready);

@@ -1,99 +1,138 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:18:1-51:12
-INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:18:1-51:12
-MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/user1/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/1bff4b8cf1606f60737443dd1bf50712/AndroidManifest.xml:17:1-30:12
-MERGED from [org.tensorflow:tensorflow-android:1.2.0] /home/user1/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0.aar/6444e878b5ff10ac6264ca1b2b60ef5e/AndroidManifest.xml:2:1-8:12
-INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:18:1-51:12
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:18:1-51:12
+INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:18:1-51:12
+MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/2279f753efa3b90c3ae2592cef998fd9/AndroidManifest.xml:17:1-30:12
+MERGED from [org.tensorflow:tensorflow-android:1.2.0] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0.aar/c011d5da954821b8cc0a8a3ed6e5d83d/AndroidManifest.xml:2:1-8:12
+MERGED from [com.android.support:design:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/8524c121dfa254210fd5db4c23cbf3e0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cceb67aebdbf7eae7225aa2762a94228/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/08bb2209e03dec77aeefeccad08e90c6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/e302bc1d265314f8f8e6d2bd612763f6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/d02c4ccd5eef490288c32c8fef705442/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2d3dc8336358ce3cced8495dcf082648/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dda5bb6de387f1877d5417be27cf2dc7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ee11c23bf24ee96e4e207cb0769b3b95/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/b079c2076ce6a730982e06ee95c15eb5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6bc0d2eb0c58eedf1deee1b9506cfb4e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/e84ee7ababc7fc6d96587094fec48e43/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a6c8eccf9960831abb0f0ef2e816a0dc/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d7a5835a7b883d4214865dec9ec7b66f/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:18:1-51:12
 	package
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:19:5-56
-		INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:19:5-56
+		INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:18:11-69
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:18:11-69
 uses-permission#com.google.android.things.permission.MANAGE_INPUT_DRIVERS
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:20:5-97
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:20:5-97
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:20:22-94
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:20:22-94
 uses-permission#android.permission.CAMERA
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:22:5-65
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:22:5-65
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:22:22-62
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:22:22-62
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:23:5-80
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:23:5-80
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:23:22-78
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:23:22-78
 uses-feature#android.hardware.camera
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:25:5-60
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:25:5-60
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:25:19-57
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:25:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:26:5-70
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:26:5-70
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:26:19-67
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:26:19-67
 application
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:29:5-49:19
-MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/user1/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/1bff4b8cf1606f60737443dd1bf50712/AndroidManifest.xml:26:5-28:19
-MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/user1/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/1bff4b8cf1606f60737443dd1bf50712/AndroidManifest.xml:26:5-28:19
-MERGED from [org.tensorflow:tensorflow-android:1.2.0] /home/user1/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0.aar/6444e878b5ff10ac6264ca1b2b60ef5e/AndroidManifest.xml:5:5-6:19
-MERGED from [org.tensorflow:tensorflow-android:1.2.0] /home/user1/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0.aar/6444e878b5ff10ac6264ca1b2b60ef5e/AndroidManifest.xml:5:5-6:19
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:29:5-49:19
+MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/2279f753efa3b90c3ae2592cef998fd9/AndroidManifest.xml:26:5-28:19
+MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/2279f753efa3b90c3ae2592cef998fd9/AndroidManifest.xml:26:5-28:19
+MERGED from [org.tensorflow:tensorflow-android:1.2.0] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0.aar/c011d5da954821b8cc0a8a3ed6e5d83d/AndroidManifest.xml:5:5-6:19
+MERGED from [org.tensorflow:tensorflow-android:1.2.0] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/tensorflow-android-1.2.0.aar/c011d5da954821b8cc0a8a3ed6e5d83d/AndroidManifest.xml:5:5-6:19
 	android:label
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:30:9-41
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:30:9-41
 	android:icon
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:31:9-58
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:31:9-58
 	android:allowBackup
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:29:18-44
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:29:18-44
 	android:theme
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:32:9-67
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:32:9-40
 activity#com.example.androidthings.imageclassifier.ImageClassifierActivity
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:34:9-48:20
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:34:9-48:20
 	android:screenOrientation
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:35:19-56
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:35:19-56
 	android:label
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:36:19-51
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:36:19-51
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:34:19-58
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:34:19-58
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:37:13-40:29
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:38:17-69
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:38:25-66
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:39:17-77
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:39:17-77
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:39:27-74
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:39:27-74
 intent-filter#android.intent.action.MAIN+android.intent.category.DEFAULT+android.intent.category.IOT_LAUNCHER
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:43:13-47:29
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:43:13-47:29
 category#android.intent.category.IOT_LAUNCHER
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:45:17-80
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:45:17-80
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:45:27-78
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:45:27-78
 category#android.intent.category.DEFAULT
-ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:46:17-75
+ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:46:17-75
 	android:name
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:46:27-73
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:46:27-73
 uses-sdk
-INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
-INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
-MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/user1/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/1bff4b8cf1606f60737443dd1bf50712/AndroidManifest.xml:22:5-24:41
-MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/user1/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/1bff4b8cf1606f60737443dd1bf50712/AndroidManifest.xml:22:5-24:41
-INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
-INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
+INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
+INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
+MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/2279f753efa3b90c3ae2592cef998fd9/AndroidManifest.xml:22:5-24:41
+MERGED from [com.google.android.things.contrib:driver-button:0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/2279f753efa3b90c3ae2592cef998fd9/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/8524c121dfa254210fd5db4c23cbf3e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/8524c121dfa254210fd5db4c23cbf3e0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cceb67aebdbf7eae7225aa2762a94228/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cceb67aebdbf7eae7225aa2762a94228/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/08bb2209e03dec77aeefeccad08e90c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.0.2.aar/08bb2209e03dec77aeefeccad08e90c6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/e302bc1d265314f8f8e6d2bd612763f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/transition-27.0.2.aar/e302bc1d265314f8f8e6d2bd612763f6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/d02c4ccd5eef490288c32c8fef705442/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-v4-27.0.2.aar/d02c4ccd5eef490288c32c8fef705442/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2d3dc8336358ce3cced8495dcf082648/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-fragment-27.0.2.aar/2d3dc8336358ce3cced8495dcf082648/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dda5bb6de387f1877d5417be27cf2dc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.0.2.aar/dda5bb6de387f1877d5417be27cf2dc7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ee11c23bf24ee96e4e207cb0769b3b95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.0.2.aar/ee11c23bf24ee96e4e207cb0769b3b95/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/b079c2076ce6a730982e06ee95c15eb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/b079c2076ce6a730982e06ee95c15eb5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6bc0d2eb0c58eedf1deee1b9506cfb4e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.0.2.aar/6bc0d2eb0c58eedf1deee1b9506cfb4e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/e84ee7ababc7fc6d96587094fec48e43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.0.2.aar/e84ee7ababc7fc6d96587094fec48e43/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a6c8eccf9960831abb0f0ef2e816a0dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/a6c8eccf9960831abb0f0ef2e816a0dc/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d7a5835a7b883d4214865dec9ec7b66f/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/d7a5835a7b883d4214865dec9ec7b66f/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
+INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
-		ADDED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
-		INJECTED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
+		ADDED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
+		INJECTED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml
 uses-library#com.google.android.things
-ADDED from [com.google.android.things.contrib:driver-button:0.3] /home/user1/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/1bff4b8cf1606f60737443dd1bf50712/AndroidManifest.xml:27:9-66
+ADDED from [com.google.android.things.contrib:driver-button:0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/2279f753efa3b90c3ae2592cef998fd9/AndroidManifest.xml:27:9-66
 	android:name
-		ADDED from [com.google.android.things.contrib:driver-button:0.3] /home/user1/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/1bff4b8cf1606f60737443dd1bf50712/AndroidManifest.xml:27:23-63
+		ADDED from [com.google.android.things.contrib:driver-button:0.3] /home/paolorotolo/.gradle/caches/transforms-1/files-1.1/driver-button-0.3.aar/2279f753efa3b90c3ae2592cef998fd9/AndroidManifest.xml:27:23-63
 uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:18:1-51:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
+IMPLIED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:18:1-51:12 reason: tensorflow.contrib.android has a targetSdkVersion < 4
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from /home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/AndroidManifest.xml:18:1-51:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE
+IMPLIED from /home/paolorotolo/dev/things/Things-codelab/app/src/main/AndroidManifest.xml:18:1-51:12 reason: tensorflow.contrib.android requested WRITE_EXTERNAL_STORAGE

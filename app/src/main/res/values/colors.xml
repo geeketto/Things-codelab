@@ -16,4 +16,6 @@
 -->
 <resources>
     <color name="control_background">#cc4285f4</color>
+    <color name="accent">#689f38</color>
+    <color name="disabled">#dedede</color>
 </resources>
