@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Thu Dec 07 12:54:37 CET 2017
+1.base=/home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/build/intermediates/assets/debug
+2.path=tensorflow_inception_graph.pb
+0.baseType=DIRECTORY
+2.base=/home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/build/intermediates/assets/debug
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=LICENSE
+0.set=ASSET
+0.base=/home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/build/intermediates/assets/debug
+2.baseType=DIRECTORY
+1.path=imagenet_comp_graph_label_strings.txt

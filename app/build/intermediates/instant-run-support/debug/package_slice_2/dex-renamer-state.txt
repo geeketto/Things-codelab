@@ -1,0 +1,4 @@
+#Thu Dec 07 12:41:38 CET 2017
+base.0=/home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/build/intermediates/transforms/dexMerger/debug/2
+path.0=classes.dex
+renamed.0=classes.dex
