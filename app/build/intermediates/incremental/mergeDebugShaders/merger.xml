@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/user1/1 (copia)/SIGHT-For-the-Blind-master/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/home/paolorotolo/dev/things/Things-codelab/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/paolorotolo/dev/things/Things-codelab/app/src/debug/shaders"/></dataSet></merger>

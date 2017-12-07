@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- inherit from the AppCompat theme -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="colorPrimary">#212121</item>
+        <item name="colorPrimaryDark">#212121</item>
+        <item name="colorAccent">#689f38</item>
+
+    </style>
+</resources>
